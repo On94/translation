@@ -5,7 +5,7 @@ namespace App\Domain\GoogleTranslate;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static string|null translateText(string $text, ?string $lang)
+ * @method static GoogleTranslateResponse translateText(string $text, ?string $lang)
  */
 class GoogleTranslateFacade extends Facade
 {
